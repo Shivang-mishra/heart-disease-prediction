@@ -9,6 +9,8 @@ model = joblib.load("heart_disease_model.pkl")
 st.set_page_config(page_title="Heart Disease Prediction", page_icon="❤️")
 
 st.title("❤️ Heart Disease Prediction App")
+st.caption("👨‍💻 Developed by Shivang Mishra | Machine Learning Project")
+
 st.write("Enter patient details to predict heart disease")
 
 age = st.number_input("Age", 1, 120, 50)
